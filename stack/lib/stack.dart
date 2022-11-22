@@ -21,6 +21,7 @@ class Stack<E> {
 
   bool get isNotEmpty => !isEmpty;
 
+  //Challenge 1: Reverse a List
   void printInReverse<E>(List<E> list) {
     var stack = Stack<E>();
     for (E value in list) {
@@ -31,6 +32,7 @@ class Stack<E> {
     }
   }
 
+  //Challenge 2: Balance the Parentheses
   bool checkParantheses(String text) {
     var stack = Stack<int>();
 
